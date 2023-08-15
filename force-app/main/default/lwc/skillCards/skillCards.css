@@ -1,0 +1,48 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin: 10px;
+}
+img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.text-Container{
+    padding: 8px;
+    margin: 0 8px;
+}
+
+.text-Container h4{
+    text-align: center;
+    font-size: 28px;
+}
+
+.text-Container p{
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+.column{
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+.cardcontainer{
+    margin:0-5px ;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+
+}
