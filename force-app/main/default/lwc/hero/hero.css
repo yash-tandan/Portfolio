@@ -1,10 +1,13 @@
+.outer-container{
+    color:teal;
+}
 img{
-    width: 100%
+    width: 80%
     
 }
 
 h1{
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 32px;
 }
 
@@ -14,6 +17,7 @@ h2{
 }
 
 p{
+    margin-top: 10px;
     font-size: 22px;
 }
 
@@ -27,6 +31,7 @@ p{
     .container{
         float:left;
         width: 50%;
+        height: 50%;
     }
 
     .call-to-action{
